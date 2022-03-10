@@ -136,6 +136,13 @@ class StrixImpactIIWireless(StrixImpactIIWirelessWired):
     product_id = 0x1949
 
 
+class StrixImpactIIEP(StrixImpactIIWirelessWired):
+    """
+    Strix Impact II Electro Punk (wired)
+    """
+    product_id = 0x1956
+
+
 class Buzzard(Device):
     product_id = 0x1816
     profiles = 3
